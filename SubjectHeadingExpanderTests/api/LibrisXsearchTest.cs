@@ -8,7 +8,7 @@ using SubjectHeadingExpander;
 namespace APITestLabMall
 {
 
-    public class LibrisXsearchIsbnTest
+    public class LibrisXsearchTest
     {
         private XSearchRestClient xSearchRestClient;
 
