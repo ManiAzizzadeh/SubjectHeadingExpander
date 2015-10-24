@@ -31,11 +31,6 @@ namespace SubjectHeadingExpander
             this.saoIndexResultsPage = new SaoIndexResultsPage(phantomJsDriver);
         }
 
-        public TaskOrchestrator(string subjectPrefix, String saoUrl) : this(subjectPrefix)
-        {
-            this.saoUrl = saoUrl;
-        }
-
         /// <summary>
         /// Performs all things needed for the subject heading expansion, based on the subjectPrefix field.
         /// </summary>
